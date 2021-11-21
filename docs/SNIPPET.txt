@@ -6,8 +6,8 @@ msg: .string "Assembly is awesome!\n"
 main:
     adrp x0, msg
     add x0, x0, :lo12:msg
-    stp x29, x30, [sp]
+    stp x29, x30, [sp, #-16]!
     bl printf
-    ldp x29, x30, [sp]
+    ldp x29, x30, [sp], #16
     mov x0, #0
     ret                     

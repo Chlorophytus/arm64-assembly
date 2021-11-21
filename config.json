@@ -46,7 +46,13 @@
       }
     ]
   },
-  "concepts": [],
+  "concepts": [
+		{
+			"uuid": "e5c7ad93-e4bf-4f3d-ab26-5217e97d9730",
+			"slug": "basics",
+			"name": "Basics"
+		}
+	],
   "key_features": [],
   "tags": [
     "paradigm/imperative",
