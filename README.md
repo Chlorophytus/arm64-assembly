@@ -23,4 +23,4 @@ This track is also probably going to use the ARM default calling convention to s
 
 Please see the [contributing guide][contributing-guide]
 
-[contributing-guide]: https://github.com/exercism/x-api/blob/master/CONTRIBUTING.md#the-exercise-data
+[contributing-guide]: https://exercism.org/docs/building
